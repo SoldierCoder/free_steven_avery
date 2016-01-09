@@ -1,0 +1,35 @@
+{
+  "name": "free-steve-avery",
+  "version": "1.0.0",
+  "description": "protest app to persuade Gov Walker to free Steve Avery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www",
+    "populate": "node ./bin/populate_db"
+  },
+  "keywords": [
+    "MEAN",
+    "Twitter",
+    "Justice",
+    "Passport"
+  ],
+  "author": "Ed Drain",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.14.2",
+    "compression": "^1.6.0",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.3.5",
+    "mongoose-post-find": "0.0.2",
+    "morgan": "^1.6.1",
+    "passport": "^0.3.2",
+    "serve-favicon": "^2.3.0"
+  }
+}
