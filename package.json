@@ -23,10 +23,11 @@
     "body-parser": "~1.8.0",
     "method-override": "~2.2.0",
     "ejs": "~1.0.0",
+    "express-session": "~1.7.6",
+
     "async": "^1.5.2",
     "cookie-parser": "^1.4.0",
     "debug": "^2.2.0",
-    "express-session": "^1.12.1",
     "mongoose": "^4.3.5",
     "mongoose-post-find": "0.0.2",
     "passport": "^0.3.2",
