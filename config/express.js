@@ -6,6 +6,9 @@ var config = require('./config'),
   methodOverride = require('method-override'),
   session = require('express-session');
 
+var uri = 'mongodb://localhost/sff';
+var db = require('mongoose').connect(uri);
+
 module.exports = function() {
   var app = express();
 
